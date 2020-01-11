@@ -36,7 +36,7 @@ data "openstack_images_image_v2" "ubuntu_18_04" {
 }
 
 data "openstack_compute_flavor_v2" "s1-2" {
-  name = "s1-2"
+  name = "b2-7"
 }
 
 data "openstack_networking_network_v2" "infra-internal" {
