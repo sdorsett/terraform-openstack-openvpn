@@ -43,7 +43,7 @@ data "openstack_networking_network_v2" "infra-internal" {
   name           = "default-internal"
 }
 
-data "openstack_networking_subnet_v2" "infra-internal-subnet" {
-  name       = "default-internal-subnet"
-  ip_version = 4
-}
+#data "openstack_networking_subnet_v2" "infra-internal-subnet" {
+#  name       = "default-internal-subnet"
+#  ip_version = 4
+#}

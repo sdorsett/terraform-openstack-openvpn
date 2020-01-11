@@ -1,9 +1,9 @@
 variable "private_key" {
-  default = "/root/.ssh/id_rsa-terraform_openvpn"
+  default = "/root/.ssh/id_rsa"
 }
 
 variable "public_key" {
-  default = "/root/.ssh/id_rsa-terraform_openvpn.pub"
+  default = "/root/.ssh/id_rsa.pub"
 }
 
 variable "ssh_user" {
